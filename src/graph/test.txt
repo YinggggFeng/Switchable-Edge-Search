@@ -1,0 +1,516 @@
+Testing Graph.cpp
+Empty Graph
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+
+Basic
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+
+Set up some type 1 edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 4 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 3 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+
+Duplicate insert
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 4 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 3 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+
+Set up some type 2 Non-Switchable Edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 4 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 3 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 1 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 0 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 
+
+
+Set up some type 2 Switchable Edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 4 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 3 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 1 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 0 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 0 2 
+In Neighbors
+0: 4 
+1: 
+2: 4 
+3: 
+4: 
+
+
+Get Out Non-Switchable Edges
+
+
+0 4 
+
+Get In Non-Switchable Edges
+
+
+1 2 3 
+
+Get Out Switchable Edges
+
+
+0 2 
+
+Get In Switchable Edges
+
+
+4 
+
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 4 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 3 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 1 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 0 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 0 2 
+In Neighbors
+0: 4 
+1: 
+2: 4 
+3: 
+4: 
+
+
+Get Out Switchable Edges
+
+
+0 2 
+
+Get In Switchable Edges
+
+
+4 
+
+Get Out Edges
+0 2 
+
+Get In Edges
+1 2 3 
+
+Remove type 1 edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 1 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 0 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 0 2 
+In Neighbors
+0: 4 
+1: 
+2: 4 
+3: 
+4: 
+
+
+Remove type 2 Non-Switchable Edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 0 2 
+In Neighbors
+0: 4 
+1: 
+2: 4 
+3: 
+4: 
+
+
+Remove type 2 Switchable Edges
+Printing Graph
+Type 1 Graph
+
+Out Neighbors
+0: 
+1: 2 
+2: 4 
+3: 
+4: 
+In Neighbors
+0: 
+1: 
+2: 1 
+3: 
+4: 2 
+
+Type 2 Non-Switchable Graph
+
+Out Neighbors
+0: 
+1: 4 
+2: 0 
+3: 
+4: 
+In Neighbors
+0: 2 
+1: 
+2: 
+3: 
+4: 1 
+
+Type 2 Switchable Graph
+
+Out Neighbors
+0: 
+1: 
+2: 
+3: 
+4: 0 
+In Neighbors
+0: 4 
+1: 
+2: 
+3: 
+4: 
+
+
