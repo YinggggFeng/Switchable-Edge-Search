@@ -2,6 +2,8 @@
 
 This repository is the implementation of A Real-Time Rescheduling Algorithm for Multi-robot Plan Execution published in ICAPS 2024.
 
+The source code for K-Robust CBS is available at https://github.com/nobodyczcz/Lazy-Train-and-K-CBS. The "wait-on-start" branch supports the delayed situation that we considered.
+
 Build:
 
 ```bash
